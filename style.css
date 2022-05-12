@@ -2,3 +2,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
+
+.input-group{
+    width: 200px;
+}

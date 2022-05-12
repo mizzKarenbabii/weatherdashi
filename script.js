@@ -1,10 +1,14 @@
 // Global Variables
-var APIkey =""
-var searchInput = document.querySelector('.search-input')
-var searchBtn = document.querySelector('.search-btn')
+var APIkey ="cae68945990614ee5624600209ef818b";
+var searchInput = document.querySelector('.search-input');
+var searchBtn = document.querySelector('.search-btn');
 
 
 // Click listener on the search button
+ searchBtn.addEventListener("click", searchResults );
+    function searchResults(){
+        alert ("hey");
+    }
     //get value of search input
 
     // use value to call first API
